@@ -1,19 +1,19 @@
 # Write a program to accept marks of 6 students and display them in a sorted  manner
 
-marks = ()
+marks = []
 
-m1 = (input("enter marks = "))
+m1 = int(input("enter marks = "))
 marks.append(m1)
-m2 = (input("enter marks = "))
+m2 = int(input("enter marks = "))
 marks.append(m2)
-m3 = (input("enter marks = "))
+m3 = int(input("enter marks = "))
 marks.append(m3)
-m4 = (input("enter marks = "))
+m4 = int(input("enter marks = "))
 marks.append(m4)
-m5 = (input("enter marks = "))
+m5 = int(input("enter marks = "))
 marks.append(m5)
-m6 = (input("enter marks = "))
+m6 = int(input("enter marks = "))
 marks.append(m6)
 
-sortedMarks = marks.sort()
-print(sortedMarks)
+marks.sort()
+print(marks)
