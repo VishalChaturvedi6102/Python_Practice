@@ -1,6 +1,6 @@
 # Sets are used to store multiple items in a single variable.
 # Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
-# A set is a collection which is unordered, unchangeable*, and unindexed.
+# A set is a collection which is unordered, unchangeable*, and unindexed(that ind3ex just like array [] doesn't work in sets).
 # * Note: Set items are unchangeable, but you can remove items and add new items.
 # Sets are written with curly brackets.
 
@@ -10,9 +10,13 @@ thisset = {"apple", "banana", "cherry"}
 print(thisset)
 
 
+'''**SEt is non repetative in nature i.e 
+mera set saari repeating values ko as single value let hai 
+iss main koi bhi value kabhi bhi repeat nahi hoti hai ++
+Set main order maintain nahi hota if we want it in ordered format then use List'''
 
 set = {1, 2, 3, 4, 5, 5, 5, 5, 5, 6, 7, 7, 7, 9, 9, 9, 8, 8, 0}
-print(set)
+print(set)  # {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 
 
